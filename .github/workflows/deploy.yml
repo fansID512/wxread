@@ -1,4 +1,5 @@
 name: wxread
+# 维护：fansID512（定时任务的触发者需为有写权限的用户，否则会卡在 action_required）
 
 concurrency:
   group: ${{ github.workflow }} # 使用工作流名称作为并发组的key
